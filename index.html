@@ -7,10 +7,13 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-	<!-- Todo: Modify the next line. Replace "Version Control Essentials" with your name. -->
-	<h1 data-shadow='Version Control Essentials'>Version Control Essentials</h1>
-		
+	<h1></h1>
 	<p>Animated text shadow created by <a href="https://codepen.io/carpenumidium/pen/nVgdez">carpe numidium</a>.</p>
+	<script>
+		const message = "Version Control";
+		const h1 = document.querySelector('h1')
+		h1.textContent = message
+		h1.setAttribute("data-shadow", message)
+	</script>
 </body>
 </html>
